@@ -1,0 +1,41 @@
+body {
+    overflow-x: hidden;
+}
+a {
+    color: #fff;
+}
+header {
+    background-color: brown;
+    color: #fff;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: center;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 1rem;
+}
+main {
+    width:90%;
+    display: grid ;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem;
+    gap: 1rem;
+    margin: 2rem;
+}
+main .book {
+    background-color: #ccc;
+    padding: 1rem;
+}
+
+article {
+    text-align: center;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ font-size: 2rem;
+ align-items: center;
+}
+
+
